@@ -1,0 +1,20 @@
+readme.txt
+webis-qsec-10-training-set-queries.txt (query-ID, query)
+webis-qsec-10-training-set-segmentations-crowdsourced.txt (query-ID, segmentations, number of votes)
+data/
+  webis-qsec-10-training-set-queries-pos-tagged.txt (query-ID, query, POS tags)
+  webis-qsec-10-training-set-n-gram-web-frequencies-google.txt (n-gram, Google n-gram frequency)
+  webis-qsec-10-training-set-1-gram-web-frequencies-msn.txt (1-gram, MSN 1-gram frequency for PMI) 
+  webis-qsec-10-training-set-2-gram-web-frequencies-msn.txt (2-gram, MSN 2-gram frequency for PMI)
+  webis-qsec-10-training-set-n-gram-web-frequencies-normalized.txt (n-gram, normalized n-gram frequency from Google n-grams)
+  webis-qsec-10-training-set-n-gram-pos-tagged.txt (n-gram, POS tags)
+  webis-qsec-10-training-set-n-gram-wikipedia-titles.txt (n-gram list of n-grams that are Wikipedia titles)
+  webis-qsec-10-training-set-n-gram-pmi-values.txt (n-gram, PMI value)
+segmentations-of-algorithms/ 
+  webis-qsec-10-training-set-segmentations-hybrid-acc.txt (hybrid query segmentation HYB-A described in "Towards Optimum Query Segmentation: In Doubt Without", CIKM 2012, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2012q.pdf)
+  webis-qsec-10-training-set-segmentations-hybrid-ir-none-stein2011e.txt (hybrid query segmentation HYB-I described in "Towards Optimum Query Segmentation: In Doubt Without", CIKM 2012, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2012q.pdf)
+  webis-qsec-10-training-set-segmentations-pmi-baseline.txt (Pointwise-mutual information baseline, used in "Query Segmentation Revisited", WWW 2011, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2011e.pdf, and in "Towards Optimum Query Segmentation: In Doubt Without", CIKM 2012, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2012q.pdf)
+  webis-qsec-10-training-set-segmentations-stein2010j.txt (naive query segmentation (s^s) described in "The Power of Naive Query Segmentation", SIGIR 2010, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010j.pdf)
+  webis-qsec-10-training-set-segmentations-stein2011e.txt (Wikipedia-based normalization described in "Query Segmentation Revisited", WWW 2011, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2011e.pdf)
+  webis-qsec-10-training-set-segmentations-wt-baseline.txt (WT-baseline described in "Towards Optimum Query Segmentation: In Doubt Without", CIKM 2012, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2012q.pdf)
+  webis-qsec-10-training-set-segmentations-wt-snp-baseline.txt (WT+SNP baseline described in "Towards Optimum Query Segmentation: In Doubt Without", CIKM 2012, http://www.uni-weimar.de/medien/webis/publications/papers/stein_2012q.pdf)
